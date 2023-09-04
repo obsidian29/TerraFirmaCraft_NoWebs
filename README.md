@@ -1,3 +1,11 @@
+This is a fork of the awesome TerraFirmaCraft mod for Minecraft Forge, which overhauls survival in a way that, to me, makes it feel like an entirely different game. One is truly forced to survive by their wits and feels as if they are in a world that is much, much bigger than they are. Unfortunately, this mod generates cobwebs. I have severe trypophobia which is triggered by cobwebs to the point that it makes me literally scream and run.
+
+On Fabric, I have created a mod with a mixin to prevent cobweb generation. However, this mod is only made for the cesspool we call Forge. I hate Forge, but it's worth dealing with it every so often to play TFC - except for the webs. So I forked it. I changed literally one line of code and a comment. That's it. I can recompile it and play the mod, safe in the knowledge that there will be no webs. I can return to lobbing javelins at bears from a distance. :D
+
+Original TerraFirmaCraft description (at time of forking) below:
+
+================================================================
+
 ![TerraFirmaCraft Splash Image](./img/splash-1.png)
 
 *Survival Mode As It Should've Been*
