@@ -72,7 +72,7 @@ public class CaveVegetationFeature extends Feature<CaveVegetationConfig>
                     }
                 }
             }
-            if (random.nextFloat() < 0.04f)//cobwebs and roots
+            if (random.nextFloat() < 0.04f)//roots
             {
                 mutablePos.setWithOffset(pos, random.nextInt(15) - random.nextInt(15), 4 + random.nextInt(7), random.nextInt(15) - random.nextInt(15));
                 if (isStone(level, mutablePos))
@@ -80,7 +80,7 @@ public class CaveVegetationFeature extends Feature<CaveVegetationConfig>
                     mutablePos.move(0, -1, 0);
                     if (level.isEmptyBlock(mutablePos))
                     {
-                        final BlockState state = random.nextBoolean() ? Blocks.COBWEB.defaultBlockState() : Blocks.HANGING_ROOTS.defaultBlockState();
+                        final BlockState state = Blocks.HANGING_ROOTS.defaultBlockState();
                         setBlock(level, mutablePos, state);
                     }
                 }
